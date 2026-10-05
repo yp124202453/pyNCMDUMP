@@ -5,6 +5,13 @@ Changes:
 2. Added some additional command line options support. You can now choose the target folder you want to output to, and the timestamps to only process files created after this time.
 
 ```
+$ install scripts before run the scripts
+pip install tqdm
+pip uninstall crypto -y
+pip uninstall pycrypto -y
+pip uninstall pycryptodome -y
+pip install pycryptodome
+
 $ python3 ncmdump.py --help
 
 
